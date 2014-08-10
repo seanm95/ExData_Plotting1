@@ -53,7 +53,7 @@ DF[,9] <- as.double( DF[,9] )
 ## Now we plot...
 
 ## Instructions: "Construct the plot and save it to a PNG file with a width of 480 pixels and a height of 480 pixels."
-pngfile <- png(file="plot1.png", width=480, height=480, units="px", bg="transparent")
+pngfile <- png(file="plot1.png", width=480, height=480, units="px")
 
 hist(DF[,"Global_active_power"], col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
 

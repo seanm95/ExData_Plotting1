@@ -53,7 +53,7 @@ DF[,9] <- as.double( DF[,9] )
 ## Now we plot...
 
 ## Instructions: "Construct the plot and save it to a PNG file with a width of 480 pixels and a height of 480 pixels."
-pngfile <- png(file="plot3.png", width=480, height=480, units="px", bg="transparent")
+pngfile <- png(file="plot3.png", width=480, height=480, units="px")
 
 plot(DF[,"Datetime"], DF[,"Sub_metering_1"], type="l",  main="", ylab="Energy sub metering", xlab="")
 points(DF[,"Datetime"], DF[,"Sub_metering_2"], type="l", col="red")
