@@ -58,3 +58,4 @@ pngfile <- png(file="plot2.png", width=480, height=480, units="px")
 plot(DF[,"Datetime"], DF[,"Global_active_power"], type="l",  main="", ylab="Global Active Power (kilowatts)", xlab="")
 
 dev.off()
+

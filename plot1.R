@@ -59,3 +59,4 @@ hist(DF[,"Global_active_power"], col="red", main="Global Active Power", xlab="Gl
 
 dev.off()
 
+

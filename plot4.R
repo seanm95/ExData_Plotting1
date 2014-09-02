@@ -74,3 +74,4 @@ legend("topright", legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"
 plot(DF[,"Datetime"], DF[,"Global_reactive_power"], type="l",  main="", ylab="Global_reative_power", xlab="datetime")
 
 dev.off()
+
